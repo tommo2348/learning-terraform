@@ -6,4 +6,5 @@ variable "instance_type" {
 variable "AWS_SECRET_ACCESS_KEY" {
   description = "The AWS secret access key credential to access amazon aws"
   type = string
+  default = "t3.nano"
 }
